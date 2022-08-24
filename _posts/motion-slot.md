@@ -4,7 +4,7 @@ excerpt: ''
 coverImage: '/assets/blog/dynamic-routing/next.png'
 date: '2022-07-01'
 ogImage:
-  url: '/assets/blog/dynamic-routing/next.png'
+  url: '  '
 tags:
   - 'Next'
   - 'React'
