@@ -11,7 +11,7 @@ export const Seo = () => {
     <>
       <DefaultSeo
         defaultTitle="Ri-one SSL"
-        description="WebエンジニアYukiのポートフォリオブログです。"
+        description="Ri-one SSLの公式ホームページです。"
         openGraph={{
           type: 'website',
           title: "Ri-one SSL",
