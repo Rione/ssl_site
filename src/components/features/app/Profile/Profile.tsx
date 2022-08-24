@@ -8,7 +8,7 @@ export const Profile = () => (
       <Image
         className="object-cover w-28 h-28 rounded-full"
         alt="avatar"
-        src="/assets/79553411.jpeg"
+        src="/assets/Ri-one_image.jpg"
       />
       <h1 className="text-2xl font-semibold text-primary-1">Yuki Ishida</h1>
     </div>
