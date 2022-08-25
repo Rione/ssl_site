@@ -1,63 +1,41 @@
 ---
-title: 'サイトをNext.jsにした話'
+title: 'サイトを作りました'
 excerpt: ''
-coverImage: '/assets/blog/dynamic-routing/next.png'
-date: '2022-07-01'
+coverImage: '/assets/blog/dynamic-routing/robot.jpg'
+date: '2022-08-24'
 ogImage:
-  url: '  '
+  url: '/assets/blog/dynamic-routing/robot.jpg'
 tags:
   - 'Next'
   - 'React'
   - 'ブログ'
 ---
 
-## 概要
+## 概要 Outline
 
-自分のポートフォリオサイトをNext.jsにした
+- Ri-one SSL(Small Size League)のサイトを作りました。
+- We made website of Ri-one SSL(Small Size League).
 
-### 理由
+### 理由 Reason
 
-ブログページを追加してポートフォリオ兼ブログサイトにしたかったのでいろいろ考えた結果Nextになった
+- Ri-oneのサイトは今までもあったのですがSSLの専用サイトがありませんでした。
+広報用に専用のサイトが欲しかったこともあり、
+HPに詳しい先輩が入ったことを機に作ってみることにしました。
+- We tried making exclusive website of Ri-one SSL.
+It's because we didn't have exclusive website.
 
-[こちら](https://zenn.dev/subt/articles/957bd5d01485e1)のテンプレートを利用して改良しました
 
-### 機能
+### 目的 Purpose
 
-完全なブログとして利用してもいいくらいの機能を備えており，SEOから目次機能，SNSシェア機能まで盛り沢山です．
+- Ri-one SSLの活動の発信
+- Ri-one SSLへの問い合わせフォームの作成 
+- To provide our activity
+- To make our inquiry form
 
-また`tailwind`を使ってみるきっかけにもなったのですが，使ってみると想像以上に使いやすくて気に入りました😁  あとgithub pagesでホストできるのもいい点かな！！
+## 今後について About the future
 
-## 問題点
-
-ただ，`Markdown`で色が使えない問題とブログxポートフォリオはよろしくないかもしれないという問題が見つかりました．
-
-### Markdownで色が使えない
-
-このサイトのブログはMarkdown形式で書かれているのですが，なぜか
-
-```html
-<span style="color: red;">注意！！</span>
-
-<!--このように書いても・・・-->
-
-<p>注意！！</p>
-
-<!--バニラのpタグに変換されてしまいます-->
-```
-
-`span`が消されてしまう以上css適用しても無駄なためh6に赤色をつけるようにして対応しています．
-
-他にも改行ができないことなどいろいろな問題も見受けられるのでまた改良してけるといいですね😭
-
-### ブログxポートフォリオはよろしくないかも
-
-このサイトのブログ機能が有能すぎるためインデックスされたときにいろいろと厄介になりそうです．
-
-というのも[Aboutページ](https://lion-rion.github.io/about)に個人情報を載せているのですが，記事を読む人からしたら無駄な気がします．<br>
-多分気にしすぎかもですが何かモヤモヤしてしまいますね-...
-
-## まとめ
-
-これからはこのサイトにボヤキみたいのを上げて記録していけたらなと思います．では😌
-
+- これからはこのサイトにRi-one SSLでやっていることをまったり更新していけたらなと思います。
+- ではまた👋
+- From now on, We hope to update this site with what we are doing at Ri-one SSL.
+- See you.
 
